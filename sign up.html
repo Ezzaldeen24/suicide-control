@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--
+Template Name: Yammoe
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Yammoe</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('image/a2.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row0">
+    <div id="topbar" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left"> 
+        
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+      </div>
+      <nav id="mainav" class="fl_right"> 
+        <a href="index.html"><img src="image/mylogo.png"></a>   
+
+        <!-- ################################################################################################ -->
+        <ul class="clear">
+          
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="sign in.html">Sign in</a></li>
+          <li><a href="get help.html">Get Help</a></li>
+          <li><a class="drop" href="">Glimmer of hope</a>
+            <ul>
+              <li><a href="glimmer of hope.html">Experiences</a></li>
+              <li><a href="advices.html">Advices</a></li>
+              
+            </ul>
+          </li>          <li><a href="therapists.html">Therapists</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <!-- ################################################################################################ -->
+      </nav>
+    </header>
+  </div>
+  
+
+  <div class="container55">
+   <h2>Sign Up</h2>
+   <form action="<?php echo htmlspecialchars(
+       $_SERVER['PHP_SELF']
+   ); ?>" method="post">
+       <div class="user-details .input-box input">
+           <label>Username</label>
+           <input type="text" name="username" class="form-control <?php echo !empty(
+               $username_err
+           )
+               ? 'is-invalid'
+               : ''; ?>" value="<?php echo $username; ?>">
+           <span class="invalid-feedback"><?php echo $username_err; ?></span>
+       </div>  
+       
+       <div class="user-details .input-box input">
+           <label>Email</label>
+           <input type="text" name="email" class="form-control <?php echo !empty(
+               $email_err
+           )
+               ? 'is-invalid'
+               : ''; ?>" value="<?php echo $email; ?>">
+           <span class="invalid-feedback"><?php echo $email_err; ?></span>
+       </div> 
+       <div class="user-details .input-box input">
+           <label>Password</label>
+           <input type="password" name="password" class="form-control <?php echo !empty(
+               $password_err
+           )
+               ? 'is-invalid'
+               : ''; ?>" value="<?php echo $password; ?>">
+           <span class="invalid-feedback"><?php echo $password_err; ?></span>
+       </div>
+       <div class="user-details .input-box input">
+           <label>Confirm Password</label>
+           <input type="password" name="confirm_password" class="form-control <?php echo !empty(
+               $confirm_password_err
+           )
+               ? 'is-invalid'
+               : ''; ?>" value="<?php echo $confirm_password; ?>">
+           <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
+       </div>
+       <div class="gender-details">
+           <form action="" method="post">
+               
+       <input type="radio" name="gender" value="patient" id="dot-1">
+       <input type="radio" name="gender" value="volunteer" id="dot-2">
+       <input type="radio" name="gender" value="doctor" id="dot-3">
+       <span class="gender-title"></span>
+       <div class="category">
+         <label for="dot-1">
+         <span class="dot one"></span>
+         <span class="gender">Patient</span>
+       </label>
+       <label for="dot-2">
+         <span class="dot two"></span>
+         <span class="gender">Volunteer</span>
+       </label>
+       <label for="dot-3">
+         <span class="dot three"></span>
+         <span class="gender">Doctor</span>
+         </label>
+       </div>
+     </div>
+
+       <div class="button">
+           <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+       </div>
+
+       
+       
+       <p>Already have an account? <a href="login.php">Login here</a>.</p>
+   </form>
+</div>    
+
+
+
+
+
+
+
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Bottom Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('image/sea-and-the-rocks-1.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row4">
+    <footer id="footer" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50">
+        <div class="one_quarter first">
+          <h6 class="heading">Lorem proin volutpat</h6>
+          <p>Ligula quis sapien nam molestie massa quis pede maecenas quis lacus nunc sed lectus quis lectus tristique tincidunt sed varius nisl tincidunt lectus pellentesque sagittis mauris ut leo ullamcorper tortor morbi accumsan [<a href="#">&hellip;</a>]</p>
+          <ul class="faico clear">
+            <li><a class="faicon-facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="faicon-google-plus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="faicon-vk" href="#"><i class="fab fa-vk"></i></a></li>
+          </ul>
+        </div>
+        <div class="one_quarter">
+          <h6 class="heading">Nascetur ridiculus mus</h6>
+          <ul class="nospace linklist">
+            <li><a href="#">Aliquam eget leo praesent</a></li>
+            <li><a href="#">Vel urna nunc ultricies</a></li>
+            <li><a href="#">Faucibus nunc cum sociis</a></li>
+            <li><a href="#">Natoque penatibus et magnis</a></li>
+            <li><a href="#">Dis parturient montes</a></li>
+          </ul>
+        </div>
+        <div class="one_quarter">
+          <h6 class="heading">Vestibulum sed quam</h6>
+          <p class="nospace btmspace-15">Ante dapibus luctus sed quis diam vitae ipsum ultrices vehicula.</p>
+          <form action="#" method="post">
+            <fieldset>
+              <legend>Newsletter:</legend>
+              <input class="btmspace-15" type="text" value="" placeholder="Name">
+              <input class="btmspace-15" type="text" value="" placeholder="Email">
+              <button class="btn" type="submit" value="submit">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="one_quarter">
+          <h6 class="heading">Aenean diam euismod</h6>
+          <ul class="nospace clear latestimg">
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+            <li><a class="imgover" href="#"><img src="images/demo/100x100.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- ################################################################################################ -->
+      <hr class="btmspace-50">
+      <!-- ################################################################################################ -->
+      <nav>
+        <ul class="nospace">
+          <li><a href="index.html"><i class="fas fa-lg fa-home"></i></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Disclaimer</a></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </footer>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row5">
+    <div id="copyright" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+      <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Bottom Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
